@@ -1,0 +1,10 @@
+{
+  "name": "internal-only",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "angular": "1.0.0",
+    "@angular/core": "5.0.0",
+    "@angular/common": "5.0.0"
+  }
+}
