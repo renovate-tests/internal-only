@@ -5,6 +5,7 @@
   "packageRules": [{
     "packagePatterns": [".*"],
     "excludePackageNames": ["angular"],
-    "prTitle": "internal only"
+    "excludePackagePatterns": ["^@angular/.*"],
+    "renovatePrefix": "renovate-external/"
   }]
 }
