@@ -4,7 +4,7 @@
   ],
   "packageRules": [{
     "packagePatterns": [".*"],
-    "excludedPackagePatterns": ["$(angular|@angular/.*)$"],
+    "excludedPackageNames": ["angular"],
     "prTitle": "internal only"
   }]
 }
