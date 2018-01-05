@@ -6,6 +6,6 @@
     "packagePatterns": [".*"],
     "excludePackageNames": ["angular"],
     "excludePackagePatterns": ["^@angular/.*"],
-    "renovatePrefix": "renovate-external/"
+    "branchPrefix": "renovate-external/"
   }]
 }
