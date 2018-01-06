@@ -2,10 +2,15 @@
   "extends": [
     "config:base"
   ],
-  "packageRules": [{
-    "packagePatterns": [".*"],
-    "excludePackageNames": ["angular"],
-    "excludePackagePatterns": ["^@angular/.*"],
+  "branchPrefix": "renovate--",
+  "lockFileMaintenance": {
     "enabled": false
-  }]
+  },
+  "packageRules": [
+    {
+      "enabled": false
+    }
+  ],
+  "rebaseStalePrs": true,
+  "semanticCommits": true
 }
