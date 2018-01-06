@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [{
+    "packagePatterns": [".*"],
+    "excludePackageNames": ["angular"],
+    "excludePackagePatterns": ["^@angular/.*"],
+    "enabled": false
+  }]
+}
